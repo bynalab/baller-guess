@@ -25,7 +25,7 @@ export function Layout({ children }: LayoutProps) {
       </main>
 
       <footer className="py-6 text-center text-slate-500 text-sm border-t border-slate-800 mt-auto">
-        <p>Created by <span className="font-semibold text-emerald-400">Bynalab</span> | Built with React & Tailwind CSS</p>
+        <p>Created by <a href="https://x.com/byna001" target="_blank" rel="noopener noreferrer" className="font-semibold text-emerald-400 hover:text-emerald-300 transition-colors">Bynalab</a> | Built with React & Tailwind CSS</p>
       </footer>
     </div>
   );
